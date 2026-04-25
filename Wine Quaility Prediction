@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 # Assuming you have the CSV file with the columns mentioned
 # Replace 'wine_dataset.csv' with the actual filename
 df = pd.read_csv('WineQT.csv')
-
+ 
 # Define features (X) and target (y) 
 X = df.drop(columns=['quality', 'Id'])  # Drop the target column and Id column to get features
 y = df['quality']  # Target column
