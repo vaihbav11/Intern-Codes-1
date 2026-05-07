@@ -7,7 +7,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
-# Read the data from the CSV file
+# Read the data from the CSV file 
 df = pd.read_csv('Housing.csv')
 
 # Define features (X) and target (y)
