@@ -17,7 +17,7 @@ y = df['price']  # Target column
 # List of categorical columns to be encoded
 categorical_cols = ['mainroad', 'guestroom', 'basement', 'hotwaterheating', 
                     'airconditioning', 'prefarea', 'furnishingstatus']
-
+ 
 # Preprocessing for categorical data
 categorical_transformer = OneHotEncoder(drop='first')
 
