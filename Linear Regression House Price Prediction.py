@@ -1,15 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
- 
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import OneHotEncoder 
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
@@ -66,10 +60,3 @@ all_columns = np.append(onehot_columns, X.columns.difference(categorical_cols))
 print("Coefficients:", regressor.coef_)
 print("Intercept:", regressor.intercept_)
 print("Feature names:", all_columns)
-
-
-# In[ ]:
-
-
-
-
