@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 get_ipython().run_line_magic('matplotlib', 'inline')
  
 
-# In[5]: 
+# In[5]:  
 
 
 df=pd.read_csv("IRIS.csv")
