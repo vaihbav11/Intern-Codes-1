@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import numpy as np  
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder 
 from sklearn.feature_selection import chi2, mutual_info_classif 
 from sklearn.model_selection import train_test_split,GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
